@@ -1,7 +1,11 @@
 package main
 
-import "github.com/vrishikesh/backend-fundamentals/req_res"
+import (
+	"github.com/vrishikesh/backend-fundamentals/sync_async"
+)
 
 func main() {
-	req_res.ReqRes()
+	// req_res.ReqRes()
+	sync_async.Sync()
+	sync_async.Async()
 }
