@@ -1,7 +1,7 @@
 package main
 
 import (
-	"github.com/vrishikesh/backend-fundamentals/sse"
+	pubsub "github.com/vrishikesh/backend-fundamentals/pub_sub"
 )
 
 func main() {
@@ -11,5 +11,7 @@ func main() {
 	// push.Websockets()
 	// poll.ShortPolling()
 	// poll.LongPolling()
-	sse.SSE()
+	// sse.SSE()
+	// pubsub.Publish()
+	pubsub.Consume()
 }
