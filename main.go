@@ -1,7 +1,7 @@
 package main
 
 import (
-	"github.com/vrishikesh/backend-fundamentals/poll"
+	"github.com/vrishikesh/backend-fundamentals/sse"
 )
 
 func main() {
@@ -10,5 +10,6 @@ func main() {
 	// sync_async.Async()
 	// push.Websockets()
 	// poll.ShortPolling()
-	poll.LongPolling()
+	// poll.LongPolling()
+	sse.SSE()
 }
