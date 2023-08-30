@@ -9,5 +9,6 @@ func main() {
 	// sync_async.Sync()
 	// sync_async.Async()
 	// push.Websockets()
-	poll.Poll()
+	// poll.ShortPolling()
+	poll.LongPolling()
 }
