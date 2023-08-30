@@ -1,12 +1,13 @@
 package main
 
 import (
-	"github.com/vrishikesh/backend-fundamentals/push"
+	"github.com/vrishikesh/backend-fundamentals/poll"
 )
 
 func main() {
 	// req_res.ReqRes()
 	// sync_async.Sync()
 	// sync_async.Async()
-	push.Websockets()
+	// push.Websockets()
+	poll.Poll()
 }
